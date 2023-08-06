@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "authentication.h"
+#include "balance.h"
 
 int main() {
     User users[] = {
@@ -11,6 +12,11 @@ int main() {
 
     if (authenticateUser(users, numUsers)) {
         printf("Authenticated!\n");
+
+        char enteredAccountNumber[20];
+        strcpy(enteredAccountNumber, users[0].accountNumber);
+
+        checkBalance(users, numUsers, enteredAccountNumber);
     } else {
         printf("Authentication failed.\n");
     }

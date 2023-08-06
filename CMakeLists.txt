@@ -12,4 +12,5 @@ add_executable(atm_transaction_sim
         main.c
         receipt.c
         transfer.c
-        authentication.h)
+        authentication.h
+)
