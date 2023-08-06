@@ -1,11 +1,6 @@
 #include <stdio.h>
 #include "authentication.h"
 
-typedef struct {
-    char accountNumber[20];
-    char pin[6];
-} User;
-
 int main() {
     User users[] = {
             {"1234567890", "1234"},
