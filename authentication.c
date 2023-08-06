@@ -4,16 +4,18 @@
 
 int authenticateUser(const User* users, int numUsers) {
     char enteredAccountNumber[20];
-    char enteredPin[6];
+    char enteredPIN[6];
 
     printf("Enter your account number: ");
-    scanf("%s ", enteredAccountNumber);
+    fflush(stdout);
+    scanf("%s", enteredAccountNumber);
 
     printf("Enter your PIN: ");
-    scanf("%s", enteredPin);
+    fflush(stdout);
+    scanf("%s", enteredPIN);
 
     for (int i = 0; i < numUsers; ++i) {
-        if (strcmp(enteredAccountNumber, users[i].accountNumber) == 0 && strcmp(enteredPin, users[i].pin) == 0) {
+        if (strcmp(enteredAccountNumber, users[i].accountNumber) == 0 && strcmp(enteredPIN, users[i].pin) == 0) {
             printf("Authentication successful. \n");
             return 1; // return 1 for successful authentication.
         }

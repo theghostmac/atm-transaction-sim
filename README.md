@@ -40,9 +40,6 @@ As this project evolves, I plan to:
 - Incorporate additional transaction types and features.
 - Refine error messages and notifications for better user guidance.
 
-## Feedback and Contributions
-
-Feedback and contributions are welcome! Feel free to open issues for suggestions or bug reports. I'm excited to learn, improve, and expand this project based on your input.
 
 ## Contact
 
@@ -51,3 +48,5 @@ If you have any questions or would like to discuss how this project aligns with 
 Thank you for checking out the ATM Transaction Simulator project!
 
 [Live Demo](#) | [Documentation](#)
+
+
