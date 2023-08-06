@@ -13,7 +13,7 @@ void transferFunds(User* users, int numUsers, const char* sourceAccountNumber, c
             sourceIndex = i;
         }
         if (strcmp(destinationAccountNumber, users[i].accountNumber) == 0) {
-            targetIndex == i;
+            targetIndex = i;
         }
     }
 
