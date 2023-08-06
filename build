@@ -1,0 +1,4 @@
+cd build
+cmake ..
+make
+./atm_transaction_sim

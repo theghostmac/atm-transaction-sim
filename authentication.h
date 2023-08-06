@@ -1,6 +1,11 @@
 #ifndef AUTHENTICATION_H
 #define AUTHENTICATION_H
 
-// Declare functions and structures here.
+typedef struct {
+    char accountNumber[20];
+    char pin[6];
+} User;
+
+int authenticateUser(const User* users, int numUsers);
 
 #endif
