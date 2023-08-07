@@ -3,6 +3,7 @@
 #include "balance.h"
 #include "string.h"
 #include "transfer.h"
+#include "receipt.h"
 
 int main() {
     User users[] = {
@@ -32,6 +33,7 @@ int main() {
 
         transferFunds(users, numUsers, enteredAccountNumber, destinationAccountNumber, transferAmount);
 
+        generateReceipt(users, numUsers, enteredAccountNumber, destinationAccountNumber, transferAmount);
     } else {
         printf("Authentication failed.\n");
     }
