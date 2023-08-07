@@ -12,8 +12,8 @@ Welcome to the ATM Transaction Simulator project! This repository showcases a co
 
 ## How to Use
 
-1. Clone this repository to your local machine using `git clone https://github.com/yourusername/atm-simulator.git`.
-2. Navigate to the project directory: `cd atm-simulator`.
+1. Clone this repository to your local machine using `git clone https://github.com/theghostmac/atm-transaction-sim.git`.
+2. Navigate to the project directory: `cd atm-transaction-sim`.
 3. Compile the C code:
 ```shell
 mkdir build
@@ -44,7 +44,5 @@ The project is structured as follows:
 If you have any questions or would like to discuss how this project aligns with your requirements, please feel free to contact me at [your@email.com](mailto:your@email.com).
 
 Thank you for checking out the ATM Transaction Simulator project!
-
-[Live Demo](#) | [Documentation](#)
 
 
