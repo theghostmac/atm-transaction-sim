@@ -39,9 +39,14 @@ The project is structured as follows:
 - `transfer.c`: Facilitates fund transfers between accounts.
 - `receipt.c`: Generates transaction receipts.
 
-## Contact
-
-If you have any questions or would like to discuss how this project aligns with your requirements, please feel free to contact me at [your@email.com](mailto:your@email.com).
+## Improvements
+- [ ] **Database Integration:** Instead of using hardcoded user data, I could integrate a database 
+system (e.g., SQLite, MySQL) to store user account information, transaction history, and balances.
+- [ ] **PIN Encryption:** I can implement PIN encryption techniques to ensure the user's PIN is securely stored.
+- [ ] **Transaction History:** I can add the ability to track and display transactions history for each user, including details about deposits, withdrawals, and transfers.
+- [ ] **User Registration:** I can allow users create new accounts with personal information.
+- [ ] **Different Account Types:** I can allow the user registration for savings, checking, and business account types, introducing new features and limits.
+- [ ] **Card integration:** I can model the use of physical ATM cards or mobile apps for transactions.
 
 Thank you for checking out the ATM Transaction Simulator project!
 
