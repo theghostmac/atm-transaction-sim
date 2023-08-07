@@ -38,16 +38,6 @@ The project is structured as follows:
 - `balance.c`: Manages balance inquiries.
 - `transfer.c`: Facilitates fund transfers between accounts.
 - `receipt.c`: Generates transaction receipts.
-- `error_handling.c`: Implements error handling mechanisms.
-
-## Future Improvements
-
-As this project evolves, I plan to:
-- Enhance the user interface for a more intuitive experience.
-- Explore advanced security measures, including more encryption techniques.
-- Incorporate additional transaction types and features.
-- Refine error messages and notifications for better user guidance.
-
 
 ## Contact
 
