@@ -8,7 +8,6 @@ include_directories(.)
 add_executable(atm_transaction_sim
         authentication.c
         balance.c
-        error_handling.c
         main.c
         receipt.c
         transfer.c

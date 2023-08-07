@@ -8,16 +8,24 @@ Welcome to the ATM Transaction Simulator project! This repository showcases a co
 - **Accurate Balance Inquiries:** Fetch and display account balances accurately for simulated users.
 - **Seamless Fund Transfers:** Enable smooth fund transfers between accounts with data integrity checks.
 - **Transaction Receipt Generation:** Generate detailed receipts for successful transactions.
-- **Rigorous Error Handling:** Implement comprehensive error-handling mechanisms for a seamless user experience.
-- **Security Measures:** Employ secure coding practices and encryption techniques for data protection.
 - **Modular and Organized Structure:** Divide the project into well-structured components for readability and maintenance.
 
 ## How to Use
 
 1. Clone this repository to your local machine using `git clone https://github.com/yourusername/atm-simulator.git`.
 2. Navigate to the project directory: `cd atm-simulator`.
-3. Compile the C code: `gcc -o atm_simulator main.c authentication.c balance.c transfer.c receipt.c error_handling.c`.
-4. Run the simulator: `./atm_simulator`.
+3. Compile the C code:
+```shell
+mkdir build
+cd build
+cmake ..
+make
+```
+4. Run the simulator: `./atm_transaction_sim`
+5. Available accounts:
+   - account number: 1234567890, pin: 1234
+   - account number: 9876543210, pin: 4321
+![Project works](atm_sim_works.png)
 
 Follow the on-screen prompts to experience the ATM transaction process and interact with the simulation.
 
